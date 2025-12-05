@@ -26,6 +26,6 @@ function time(a,b){
 	setTimeout(a,b);
 }
 function execute(a){
-	let b=a.replaceAll("vr","let").replaceAll("/v","vr").replaceAll("out","alert").replaceAll("/o","alert");
+	let b=a.replaceAll("vr","let").replaceAll("/v","vr").replaceAll("out","alert").replaceAll("/o","out");
 	eval(b);
 }
