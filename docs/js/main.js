@@ -22,3 +22,10 @@ function said(a,b){
 	c.text=b;
 	speechSynthesis.speak(c);
 }
+function time(a,b){
+	setTimeout(a,b);
+}
+function execute(a){
+	let b=a.replaceAll("vr","let").replaceAll("/v","vr").replaceAll("out","alert").replaceAll("/o","alert");
+	eval(b);
+}
